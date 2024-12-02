@@ -81,5 +81,87 @@ height: 3rem;
 width: 25rem;
 margin: 0;
 }
-
 /*! tanitim bitiş     */
+
+/*! popular movies başlangıç     */
+.movielist-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.movie-img{
+    width: 30rem;
+    margin-left: 2rem;
+}
+.popmovielist{
+    list-style: none;
+    padding: 0rem;
+}
+.movielisttitle{
+    background-color: rgba(40, 40, 40, 0.4);
+    padding: 0 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 10rem;
+}
+.movieplaybuton1{
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+.movieplaybuton {
+    color: white;
+    background-color: red;
+    height: 4rem;
+    width: 10rem;
+}
+.popmovielist{
+    display: flex;
+    align-items: center;
+}
+.movielist-container{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+/*! popular movies bitiş     */
+/*!  terms Start    */
+.terms-start {
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+}
+.terms-list {
+    margin-left: 3rem;
+    margin-top: 6rem;
+    display: flex;
+}
+.terms-end{
+    margin-left: 15rem;
+    list-style: none;
+    display: flex;
+    gap: 10rem;
+}
+.terminfo{
+    width: 40rem;
+}
+.followicons{
+    width: 20rem;
+}
+.facebook{
+    width: 5rem;
+    margin-left: 8rem;
+}
+.twitter {
+    width: 4rem;
+}
+.apps {
+    width: 10rem;
+    margin-left: 3rem;
+}
+.altyazi {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 3rem;
+}
+/*!  terms End    */
