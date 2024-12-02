@@ -1,0 +1,32 @@
+/*! base css start */
+* {
+  margin: 0;
+}
+/*! base css end */
+
+.navbar {
+  background-color: rgb(238, 255, 0);
+  height: 6rem;
+  height: 100%;
+}
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    column-gap: 3rem;
+}
+.logo {
+  color: red;
+  font-size: 3rem;
+}
+.profile-list{
+    display: flex;
+    list-style: none;
+    column-gap: 2rem;
+}
+
