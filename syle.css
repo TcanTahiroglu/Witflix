@@ -4,6 +4,12 @@
 }
 /*! base css bitiş */
 /*! başlangıç Headder     */
+.searchbuttonphone{
+    display: none;
+}
+.searchboxphone{
+    display: none;
+}
 .navbar {
   height: 6rem;
   height: 100%;
@@ -126,6 +132,7 @@ margin: 0;
 /*! popular movies bitiş     */
 /*!  terms Start    */
 .terms-start {
+    margin-top: 5rem;
     list-style: none;
     display: flex;
     gap: 5rem;
@@ -136,7 +143,7 @@ margin: 0;
     display: flex;
 }
 .terms-end{
-    margin-left: 15rem;
+    margin-left: 50rem;
     list-style: none;
     display: flex;
     gap: 10rem;
@@ -162,6 +169,158 @@ margin: 0;
     display: flex;
     align-items: center;
     list-style-type: none;
-    margin-left: 3rem;
+    margin-left: 0;
+}
+/*!  terms End    */
+@media (max-width: 420px) {
+/*!  header phone start    */
+
+.searchboxphone{
+    display: flex;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 20px;
+    width: 120px;
+}
+.searchbuttonphone{
+    display: flex;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 20px;
+}
+.searchbox{
+    display: none;
+}
+.navbar {
+    width: 100%;
+}
+.navbar-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 ;
+    margin: 0;
+    flex-direction: row;
+}
+.bell {
+    display: none;
+}
+.profile {
+    display: none;
+}
+.profile-list-item {
+    align-self: flex-end;
+}
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+/*!  header phone  End    */
+/*!  content phone start    */
+.content-wrapper{
+    background-image: url(resimler/tanitim.jpg);
+    background-size: cover;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 50vh;
+    width: 390px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.rating {
+    width: 255px;
+    margin-left: 10px;
+}
+.tanitimplaybuton {
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+}
+.tanitimlogo{
+    width: 240px;
+    height: 80px;
+    margin-left: 10px;
+}
+.tanitim-acilama {
+    width: 200px;
+    height: 120px;
+    margin-left: 10px;
+}
+.movielist-container {
+    padding: 0;
+    margin: 0;
+}
+
+.movie-img {
+    width: 100px;
+    height: 100px;
+}
+
+.movielisttitle {
+    width: 20px;
+    height: 20px;
+    margin-left: 35px;
+    font-size: 20px;
+    color: white;
+}
+.movieplaybuton{
+    width: 70px;
+    height: 40px;
+}
+.movieplaybuton1{
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 50px;
+
+}
+/*!  content phone end  */
+/*!  terms Start    */
+.termscontainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+.terms-start{
+    display: flex;
+
+    padding: 0;
+    margin-left: 40px;
+    gap: 10px;
+}
+.altyazi{
+    margin-left: 20px;
+    padding: 0;
+    margin-top: 110px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.terminfo{
+    width: 200px;
+}
+.terms-end{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 150px;
+    padding: 0;
+    gap: 150px;
+}
+.followicons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.facebook{
+    margin-top: 2px;
+    height: 70px;
+}
+.twitter{
+    margin-top: 7px;
+    height: 60px;
+}
 }
 /*!  terms End    */
