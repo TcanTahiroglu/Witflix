@@ -1,11 +1,10 @@
-/*! base css start */
+/*! base css başlangıç */
 * {
   margin: 0;
 }
-/*! base css end */
-
+/*! base css bitiş */
+/*! başlangıç Headder     */
 .navbar {
-  background-color: rgb(238, 255, 0);
   height: 6rem;
   height: 100%;
 }
@@ -29,4 +28,58 @@
     list-style: none;
     column-gap: 2rem;
 }
+.bell {
+    width: 2rem;
+}
+.profile{
+    width: 2rem;
+}
+.searchbox{
+    margin-top: 0.5rem;}
+.searchbutton {
+    position: absolute;
+    cursor: pointer;
+    margin-left: 9.5rem;
+    margin-top: 0.5rem;
+}
+/*! bitiş Headder     */
+/*! tanitim başlangıç     */
+.content-wrapper{
+    background-image: url(resimler/tanitim.jpg);
+    padding: 5rem;
+    height: 50vh;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.tanitimlogo{
+    height: 10rem;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.tanitim-acilama{
+    width: 50rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 3rem;
+    margin: 0;
+}
+.tanitimplaybuton {
+    color: white;
+    background-color: red;
+    height: 4rem;
+    width: 10rem;
+}
+.rating{
+display: flex;
+flex-direction: row;
+align-items: center;
+list-style: none;
+column-gap: 0.5rem;
+background-color: rgba(255, 255, 255, 0.5);
+height: 3rem;
+width: 25rem;
+margin: 0;
+}
 
+/*! tanitim bitiş     */
